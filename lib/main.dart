@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
       initialRoute: MyRoutes.loginRoute,
       routes: {
         // ignore: prefer_const_constructors
-        "/": (context) => LoginPage(),
+        "/": (context) => HomePage(),
         MyRoutes.homeRoute: (context) => HomePage(),
         MyRoutes.loginRoute:(context) => LoginPage(),
       },
